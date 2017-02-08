@@ -1,20 +1,17 @@
 @import 'utility';
 
 .pleasework {
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
 
   ul.pleasework {
-    background-color: hsla(0, 0%, 100%, 0.8);
     display: flex;
-    padding: 25px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 100%;
     flex-direction: row;
     left: 50px;
     color: #aaa;
-    font-size: 11px;
     top: 25px;
     list-style-type: none;
   }
