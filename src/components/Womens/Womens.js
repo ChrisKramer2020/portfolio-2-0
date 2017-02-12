@@ -23,47 +23,47 @@ class Womens extends Component {
       <main className='womenslayout'>
         <nav className='pleasework'>
           <ul className='pleasework'>
-            <Link to='/WomensCollections' >
-              <li>Collections</li>
-            </Link>
+            {/* <Link to='/WomensCollections' >
+              <li className='font'>Collections</li>
+            </Link> */}
             <Link to='/WomensNew' >
-              <li>New</li>
+              <li className='font'>New</li>
             </Link>
             <Link to='/WomensDressesRompers' >
-              <li>Dresses + Rompers</li>
+              <li className='font'>Dresses + Rompers</li>
             </Link>
             <Link to='/WomensTops' >
-              <li>Tops</li>
+              <li className='font'>Tops</li>
             </Link>
             <Link to='/WomensJackets' >
-              <li>Jackets</li>
+              <li className='font'>Jackets</li>
             </Link>
             <Link to='/WomensBottoms' >
-              <li>Bottoms</li>
+              <li className='font'>Bottoms</li>
             </Link>
-            <Link to='/Intimates' >
-              <li>Intimates</li>
-            </Link>
+            {/* <Link to='/Intimates' >
+              <li className='font'>Intimates</li>
+            </Link> */}
             <Link to='/WomensSwim' >
-              <li>Swim</li>
+              <li className='font'>Swim</li>
             </Link>
             <Link to='/WomensVintage' >
-              <li>Vintage</li>
+              <li className='font'>Vintage</li>
             </Link>
-            <Link to='/Beauty' >
-              <li>Beauty</li>
-            </Link>
+            {/* <Link to='/Beauty' >
+              <li className='font'>Beauty</li>
+            </Link> */}
             <Link to='/WomensAccessories' >
-              <li>Accessories</li>
+              <li className='font'>Accessories</li>
             </Link>
             <Link to='/WomensShoes' >
-              <li>Shoes</li>
+              <li className='font'>Shoes</li>
             </Link>
             <Link to='/WomensBrands' >
-              <li>Brands</li>
+              <li className='font'>Brands</li>
             </Link>
             <Link to='/WomensSale' >
-              <li>Sale</li>
+              <li className='font'>Sale</li>
             </Link>
           </ul>
         </nav>

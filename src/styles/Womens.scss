@@ -10,14 +10,27 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    width: 95%;
+    font-size: 38px;
+    left: -5px;
+    font-weight: 400;
     flex-direction: row;
-    left: 50px;
     color: #aaa;
     font-size: 11px;
-    top: 25px;
+    top: 45px;
     list-style-type: none;
   }
+  a:link {
+    text-decoration: none;
+  }
+}
+
+.font {
+  color: black;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  font-weight: 200;
 }
 
 .pleasework {
