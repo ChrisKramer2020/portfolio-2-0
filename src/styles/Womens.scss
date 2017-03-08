@@ -1,23 +1,30 @@
 @import 'utility';
 
 .pleasework {
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
 
   ul.pleasework {
-    background-color: hsla(0, 0%, 100%, 0.8);
     display: flex;
-    padding: 25px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     position: fixed;
     width: 95%;
     font-size: 38px;
     left: -5px;
     font-weight: 400;
+=======
+    width: 100%;
+>>>>>>> a4dbf359739bd3c8fbd045379e510df987b06eef
     flex-direction: row;
     color: #aaa;
+<<<<<<< HEAD
     font-size: 11px;
     top: 45px;
+=======
+    top: 25px;
+>>>>>>> a4dbf359739bd3c8fbd045379e510df987b06eef
     list-style-type: none;
   }
   a:link {
