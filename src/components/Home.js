@@ -3,6 +3,25 @@ import { Link } from 'react-router'
 
 class Home extends Component {
 
+  constructor () {
+    super()
+    this.state = {
+      name: '',
+      price: '',
+      description: '',
+      size: ''
+    }
+  }
+
+  update () {
+    this.setState = {
+      name: '',
+      price: '',
+      description: '',
+      size: ''
+    }
+  }
+
   render () {
     return <div>
       <div id='snow' />
@@ -28,7 +47,7 @@ class Home extends Component {
         </div>
         <div className='gift'>
           <Link to='/Blog'>
-            <img src='http://images.urbanoutfitters.com/is/image/UrbanOutfitters/170123_hpgw_us_3?scl=1&qlt=92' alt='gift' height='326px' width='1165px' />
+            <img src='http://images.urbanoutfitters.com/is/image/UrbanOutfitters/170123_hpgw_us_3?scl=1&qlt=92' alt='gift' height='326px' width='1180px' />
           </Link>
         </div>
         <div className='apartment'>
