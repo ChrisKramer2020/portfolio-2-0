@@ -83,12 +83,40 @@ const development = {
   }
 }
 
+loaders: [
+	{
+		test: /\.css$/,
+		loaders: [
+			"style-loader",
+			{ loader: "css-loader", query: { modules: true } },
+			{
+				loader: "sass-loader",
+				query: {
+					includePaths: [
+						path.resolve(__dirname, "some-folder")
+					]
+				}
+			}
+		]
+	}
+]
+
 const production = {
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } })
   ]
 }
+
+new webpack.LoaderOptionsPlugin({
+	test: /\.css$/, // optionally pass test, include and exclude, default affects all loaders
+	minimize: true,
+	debug: false,
+	options: {
+		// pass stuff to the loader
+
+	}
+})
 
 module.exports = validate(merge.smart(
   process.env.npm_lifecycle_event === 'build'
